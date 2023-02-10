@@ -26,5 +26,12 @@ namespace PierresBakery.Tests
       Bread test = new Bread();
       Assert.AreEqual(5, test.Price);
     }
+
+    [TestMethod]
+    public void BuyXGet1Free_GetPurchaseQuantityForDeal_Int()
+    {
+      Bread test = new Bread();
+      Assert.AreEqual(2, test.BuyXGet1Free);
+    }
   }
 }
