@@ -33,5 +33,12 @@ namespace PierresBakery.Tests
       Bread test = new Bread();
       Assert.AreEqual(2, test.BuyXGet1Free);
     }
+
+    [TestMethod]
+    public void BreadBuyXGet1Free_GetPriceOfInputOrderQuantity_Int()
+    {
+      Bread test = new Bread();
+      Assert.AreEqual(10, test.getPrice(2));
+    }
   }
 }
