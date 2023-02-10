@@ -6,31 +6,31 @@ using PierresBakery.Models;
 namespace PierresBakery.Tests
 {
   [TestClass]
-  public class BreadTests : IDisposable
+  public class MenuItemTests : IDisposable
   {
     public void Dispose()
     {
-      Bread.ClearAll();
+      MenuItem.ClearAll();
     }
     // Test methods go here
     [TestMethod]
     public void Bread_ClassConstructor_Bread()
     {
-      Bread test = new Bread();
-      Assert.AreEqual(typeof(Bread), test.GetType());
+      MenuItem test = new MenuItem();
+      Assert.AreEqual(typeof(MenuItem), test.GetType());
     }
 
     [TestMethod]
     public void BreadPrice_GetPrice_Int()
     {
-      Bread test = new Bread();
+      MenuItem test = new MenuItem();
       Assert.AreEqual(5, test.Price);
     }
 
     [TestMethod]
     public void BuyXGet1Free_GetPurchaseQuantityForDeal_Int()
     {
-      Bread test = new Bread();
+      MenuItem test = new MenuItem();
       Assert.AreEqual(2, test.BuyXGet1Free);
     }
   }

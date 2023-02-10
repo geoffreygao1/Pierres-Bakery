@@ -1,6 +1,6 @@
 namespace PierresBakery.Models
 {
-  public class Bread
+  public class MenuItem
   {
     // properties, constructors, methods, etc. go here
     public int Price = 5;
