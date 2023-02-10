@@ -16,21 +16,21 @@ namespace PierresBakery.Tests
     [TestMethod]
     public void Bread_ClassConstructor_Bread()
     {
-      MenuItem test = new MenuItem();
-      Assert.AreEqual(typeof(MenuItem), test.GetType());
+      Bread test = new Bread();
+      Assert.AreEqual(typeof(Bread), test.GetType());
     }
 
     [TestMethod]
     public void BreadPrice_GetPrice_Int()
     {
-      MenuItem test = new MenuItem();
+      Bread test = new Bread();
       Assert.AreEqual(5, test.Price);
     }
 
     [TestMethod]
-    public void BuyXGet1Free_GetPurchaseQuantityForDeal_Int()
+    public void BreadBuyXGet1Free_GetPurchaseQuantityForDeal_Int()
     {
-      MenuItem test = new MenuItem();
+      Bread test = new Bread();
       Assert.AreEqual(2, test.BuyXGet1Free);
     }
   }
