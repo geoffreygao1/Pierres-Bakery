@@ -39,6 +39,11 @@ namespace PierresBakery.Tests
     {
       Bread test = new Bread();
       Assert.AreEqual(10, test.getPrice(2));
+      Assert.AreEqual(10, test.getPrice(3));
+      Assert.AreEqual(15, test.getPrice(4));
+      Assert.AreEqual(20, test.getPrice(5));
+      Assert.AreEqual(20, test.getPrice(6));
+      Assert.AreEqual(25, test.getPrice(7));
     }
   }
 }
