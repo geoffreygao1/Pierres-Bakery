@@ -16,7 +16,6 @@ namespace PierresBakery.Models
       //do nothing
     }
   }
-
   //Bread subclass of MenuItem superclass
   public class Bread : MenuItem
   {

@@ -8,35 +8,30 @@ namespace PierresBakery
     public static void Main()
     {
       Console.WriteLine("Welcome to Pierre's Bakery!");
+      Console.WriteLine();
+      Console.WriteLine("Today's Menu:");
+      Console.WriteLine(" - Bread : $3");
+      Console.WriteLine(" - Pastries : $2");
+      Console.WriteLine();
       Console.WriteLine("We have some special deals today:");
       Console.WriteLine(" - Buy 3 breads get 1 free");
       Console.WriteLine(" - Buy 2 pastries get 1 free");
-      Console.WriteLine("Would you like to order bread or pastires today?");
-      string orderType = Console.ReadLine();
+      Console.WriteLine();
 
-      if (orderType != "bread" && orderType != "pastries")
-      {
-        Console.WriteLine("Sorry, we don't sell those!");
-        Main();
-      }
-      else
-      {
-        Console.WriteLine("How many of those can I get for you?");
-        int orderQuantity = Int32.Parse(Console.ReadLine());
-        if (orderType == "bread")
-        {
-          Bread order = new Bread();
-          int orderPrice = order.getPrice(orderQuantity);
-          Console.WriteLine("Your order of " + orderQuantity + " breads will cost $" + orderPrice);
+      Console.WriteLine("How many of loaves of bread would you like?");
+      int breadQuantity = Int32.Parse(Console.ReadLine());
 
-        }
-        else if (orderType == "pastries")
-        {
-          Pastry order = new Pastry();
-          int orderPrice = order.getPrice(orderQuantity);
-          Console.WriteLine("Your order of " + orderQuantity + " pastries will cost $" + orderPrice);
-        }
-      }
+      Bread breadOrder = new Bread();
+      int breadOrderPrice = breadOrder.getPrice(breadQuantity);
+
+      Console.WriteLine("How many of pastries would you like?");
+      int pastryQuantity = Int32.Parse(Console.ReadLine());
+
+      Pastry pastryOrder = new Pastry();
+      int pastryOrderPrice = pastryOrder.getPrice(pastryQuantity);
+
+      Console.WriteLine("Your order of " + breadQuantity + " loaves of bread and " + pastryQuantity + " pastries will cost $" + (breadOrderPrice + pastryOrderPrice));
     }
   }
 }
+
