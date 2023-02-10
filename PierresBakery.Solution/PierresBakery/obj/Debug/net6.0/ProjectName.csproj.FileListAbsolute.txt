@@ -1,0 +1,5 @@
+/Users/geoffreygao/Desktop/Epicodus/Test Driven Development with C#/ProjectName.Solution/ProjectName/obj/Debug/net6.0/ProjectName.csproj.AssemblyReference.cache
+/Users/geoffreygao/Desktop/Epicodus/Test Driven Development with C#/ProjectName.Solution/ProjectName/obj/Debug/net6.0/ProjectName.GeneratedMSBuildEditorConfig.editorconfig
+/Users/geoffreygao/Desktop/Epicodus/Test Driven Development with C#/ProjectName.Solution/ProjectName/obj/Debug/net6.0/ProjectName.AssemblyInfoInputs.cache
+/Users/geoffreygao/Desktop/Epicodus/Test Driven Development with C#/ProjectName.Solution/ProjectName/obj/Debug/net6.0/ProjectName.AssemblyInfo.cs
+/Users/geoffreygao/Desktop/Epicodus/Test Driven Development with C#/ProjectName.Solution/ProjectName/obj/Debug/net6.0/ProjectName.csproj.CoreCompileInputs.cache
