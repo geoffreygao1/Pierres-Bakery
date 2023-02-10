@@ -45,5 +45,12 @@ namespace PierresBakery.Tests
       Assert.AreEqual(20, test.getPrice(6));
       Assert.AreEqual(25, test.getPrice(7));
     }
+
+    [TestMethod]
+    public void Pastry_ClassConstructor_Bread()
+    {
+      Pastry test = new Pastry();
+      Assert.AreEqual(typeof(Pastry), test.GetType());
+    }
   }
 }
