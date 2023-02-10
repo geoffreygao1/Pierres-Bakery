@@ -23,7 +23,6 @@ namespace PierresBakery
       _yourOrder = new Order();
       startOrder();
     }
-
     public static void startOrder()
     {
       Console.WriteLine("Would you like to order bread or pastries?");
@@ -42,7 +41,6 @@ namespace PierresBakery
         addPastry();
       }
     }
-
     public static void addBread()
     {
       Console.WriteLine("How many loaves of bread would you like?");

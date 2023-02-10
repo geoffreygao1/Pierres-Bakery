@@ -33,4 +33,13 @@ namespace PierresBakery.Models
       BuyXGet1Free = 3;
     }
   }
+  //Additional Menu items can be created using the following  template
+  //   public class NewItemName : MenuItem
+  // {
+  //   public NewItemName()
+  //   {
+  //     Price = ;
+  //     BuyXGet1Free = ;
+  //   }
+  // }
 }
