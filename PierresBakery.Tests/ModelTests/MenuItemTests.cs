@@ -59,5 +59,12 @@ namespace PierresBakery.Tests
       Pastry test = new Pastry();
       Assert.AreEqual(2, test.Price);
     }
+
+    [TestMethod]
+    public void PastryBuyXGet1Free_GetPurchaseQuantityForDeal_Int()
+    {
+      Pastry test = new Pastry();
+      Assert.AreEqual(3, test.BuyXGet1Free);
+    }
   }
 }
