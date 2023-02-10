@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/geoffreygao/Desktop/Epicodus/Independent Projects/Pierres-Bakery/PierresBakery.Solution/PierresBakery/PierresBakery.csproj": {}
+    "/Users/geoffreygao/Desktop/Epicodus/Independent Projects/Pierres-Bakery/PierresBakery/PierresBakery.csproj": {}
   },
   "projects": {
-    "/Users/geoffreygao/Desktop/Epicodus/Independent Projects/Pierres-Bakery/PierresBakery.Solution/PierresBakery/PierresBakery.csproj": {
+    "/Users/geoffreygao/Desktop/Epicodus/Independent Projects/Pierres-Bakery/PierresBakery/PierresBakery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/geoffreygao/Desktop/Epicodus/Independent Projects/Pierres-Bakery/PierresBakery.Solution/PierresBakery/PierresBakery.csproj",
+        "projectUniqueName": "/Users/geoffreygao/Desktop/Epicodus/Independent Projects/Pierres-Bakery/PierresBakery/PierresBakery.csproj",
         "projectName": "PierresBakery",
-        "projectPath": "/Users/geoffreygao/Desktop/Epicodus/Independent Projects/Pierres-Bakery/PierresBakery.Solution/PierresBakery/PierresBakery.csproj",
+        "projectPath": "/Users/geoffreygao/Desktop/Epicodus/Independent Projects/Pierres-Bakery/PierresBakery/PierresBakery.csproj",
         "packagesPath": "/Users/geoffreygao/.nuget/packages/",
-        "outputPath": "/Users/geoffreygao/Desktop/Epicodus/Independent Projects/Pierres-Bakery/PierresBakery.Solution/PierresBakery/obj/",
+        "outputPath": "/Users/geoffreygao/Desktop/Epicodus/Independent Projects/Pierres-Bakery/PierresBakery/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/geoffreygao/.nuget/NuGet/NuGet.Config"
