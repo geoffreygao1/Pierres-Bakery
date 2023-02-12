@@ -10,17 +10,10 @@ namespace PierresBakery.Models
     {
 
     }
-    //Adds menu item to order dictionary. Updates quantity if it already exists
+    //Adds menu item to order dictionary
     public void addToOrder(MenuItem orderEntry, int quantity)
     {
-      if (_instances.ContainsKey(orderEntry))
-      {
-        _instances[orderEntry] += quantity;
-      }
-      else
-      {
-        _instances.Add(orderEntry, quantity);
-      }
+      _instances.Add(orderEntry, quantity);
     }
     //Returns sum total of each menuItem price given quantity
     public int getOrderPrice()
